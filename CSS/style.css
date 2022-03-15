@@ -243,6 +243,13 @@ footer {
     }
 }
 @media (max-width: 500px) {
+    .containerMenuBtnMobile {
+
+    }
+
+    .lineMenuMobile {
+        
+    }
 
     .header {
         /* height: 498px; */
@@ -305,6 +312,10 @@ footer {
 
     .imgVetor {
         width: 400px;
+    }
+
+    .imgSun {
+        width: 350px;
     }
 
 }
