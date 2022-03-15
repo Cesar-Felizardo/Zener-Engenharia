@@ -245,7 +245,7 @@ footer {
 @media (max-width: 500px) {
 
     .header {
-        height: 498px;
+        /* height: 498px; */
         background-image: url("../IMG/LampadasBackMobile.jpg");
         background-repeat: no-repeat;
         background-size: contain;
@@ -276,7 +276,8 @@ footer {
         flex-direction: column;
         position: fixed;
         display: block;
-        /* background: transparent; */
+        width: 100%;
+        background: #374247;
     }
 
     ul { 
@@ -292,7 +293,7 @@ footer {
     }
 
     article {
-        width: 100%;
+        width: 90%;
     }
 
     #contactcUs {
