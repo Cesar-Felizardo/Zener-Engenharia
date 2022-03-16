@@ -4,7 +4,7 @@ html {
 }
 
 * {
-    margin:  0;
+    margin:  0px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
@@ -25,28 +25,17 @@ html {
 }
 
 .containerMenuBtnMobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60px;
-    padding-bottom: 9px;
-    margin-left: 10px;
-    border-radius: 20px;
-    position: relative;
-    top: 10px;
-    padding-bottom: 14px;
     display: none;
-    position: fixed;
+    position: relative;
+    width: 100%;
+    background: #b10202;
+    height: 60px;
+    bottom: 60px;
     z-index: 1;
-    top: 40px;
 }
 
-.lineMenuMobile {
-    color: rgb(241, 241, 239);
-    font-weight: bolder;
-    font-size: 14px;
-    margin: -4px;
-    display: none;
+.containerMenuBtnMobile > img {
+    width: 50px;
 }
 
 #containerLogo {
@@ -259,41 +248,23 @@ footer {
     margin-bottom: 6px;
 }
 
-@media (max-width: 800px) {
-
-    header{
-        margin-top: -80px;
+@media (min-width) {
+    nav {
+        display: block;
     }
+}
+@media (max-width: 1000px) {
 
     .header {
-        height: 498px;
-        background-image: url("../IMG/LampadasBackMid.png");
+        background-image: url("../IMG/LampadasBack1000px.jpg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     .containerMenuBtnMobile {
         display: flex;
-        float: left;
-    }
-    
-    .lineMenuMobile {
-        display: flex;
-    }
-
-    nav {
-        display: none;
-    }
-}
-@media (max-width: 500px) {
-
-    
-
-    .header {
-        /* height: 498px; */
-        background-image: url("../IMG/LampadasBackMobile.jpg");
-        background-repeat: no-repeat;
-        background-size: contain;
+        margin-top: -20px;
+        width: 100%;
     }
 
     span.subTitleSolution {
@@ -319,6 +290,7 @@ footer {
 
     nav {
         display: none;
+        margin-top: 60px;
     }
 
     ul { 
