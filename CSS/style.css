@@ -8,7 +8,6 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
-
 .header {
     width: 100%;
     height: 500px;
@@ -23,6 +22,31 @@ html {
     margin-bottom: 100px;
     box-shadow: 0px 2px 6px #020101a6;
     /* background-attachment: fixed; */
+}
+
+.containerMenuBtnMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    padding-bottom: 9px;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    padding-bottom: 14px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+}
+
+.lineMenuMobile {
+    color: rgb(241, 241, 239);
+    font-weight: bolder;
+    font-size: 14px;
+    margin: -4px;
+    display: none;
 }
 
 #containerLogo {
@@ -236,21 +260,34 @@ footer {
 }
 
 @media (max-width: 800px) {
+
+    header{
+        margin-top: -80px;
+    }
+
     .header {
         height: 498px;
         background-image: url("../IMG/LampadasBackMid.png");
         background-repeat: no-repeat;
         background-size: contain;
     }
+
+    .containerMenuBtnMobile {
+        display: flex;
+        float: left;
+    }
+    
+    .lineMenuMobile {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
 }
 @media (max-width: 500px) {
-    .containerMenuBtnMobile {
 
-    }
-
-    .lineMenuMobile {
-        
-    }
+    
 
     .header {
         /* height: 498px; */
@@ -281,11 +318,7 @@ footer {
     }
 
     nav {
-        flex-direction: column;
-        position: fixed;
-        display: block;
-        width: 100%;
-        background: #374247;
+        display: none;
     }
 
     ul { 
