@@ -300,6 +300,7 @@ footer {
         display: none;
         margin-top: 60px;
         position: absolute;
+        width: 98.5%;
     }
 
     ul { 
@@ -338,6 +339,19 @@ footer {
             background-image: url("../IMG/LampadasBackMid.png");
             background-repeat: no-repeat;
             background-size: cover;
+        }
+        nav {
+            width: 50%;
+        }
+
+        li a {
+            position: relative;
+            right: 30px;
+        }
+
+        .txtInit {
+            justify-content: center;
+            align-items: center;
         }
     }
 
