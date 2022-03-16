@@ -26,7 +26,7 @@ html {
     display: none;
     position: relative;
     width: 100%;
-    background: #b10202;
+    background: #161F24;
     height: 60px;
     bottom: 60px;
     z-index: 1;
@@ -34,6 +34,16 @@ html {
 
 .containerMenuBtnMobile > img {
     width: 50px;
+}
+
+.containerimgLogoMobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgLogoMobile {
+    width: 140px;
 }
 
 #containerLogo {
@@ -47,12 +57,12 @@ span.subTitleSolution {
     width: auto;
     display: flex;
     align-items: center;
-    color: #b10202;
+    color: #A80304;
     font-size: 12px;
     font-weight: bold;
     justify-content: start;
     text-align: center;
-    /* padding-left: 10px; */
+    padding-left: 12px;
 }
 
 #containerLogo > span {
@@ -321,6 +331,14 @@ footer {
 
     .imgSun {
         width: 350px;
+    }
+
+    @media (max-width: 500px) {
+        .header {
+            background-image: url("../IMG/LampadasBackMid.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
 
 }
