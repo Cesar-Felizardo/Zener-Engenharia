@@ -256,11 +256,6 @@ footer {
     margin-bottom: 6px;
 }
 
-@media (min-width) {
-    nav {
-        display: block;
-    }
-}
 @media (max-width: 1000px) {
 
     .header {
@@ -341,7 +336,7 @@ footer {
             background-size: cover;
         }
         nav {
-            width: 50%;
+            width: 80%;
         }
 
         li a {
@@ -350,9 +345,9 @@ footer {
         }
 
         .txtInit {
-            justify-content: center;
-            align-items: center;
+            text-align: center;
         }
+        
     }
 
 }
