@@ -190,7 +190,7 @@ section {
 
 .imgVetor {
     width: 400px;
-    margin: auto;
+    margin: auto !important;
 }
 
 .imgAnálisedeQualidade {
