@@ -1,11 +1,12 @@
 
 
 
-/* function h1Before(){
+/* 
+function h1Before(){
 
-    const h1WindowSmall = document.createElement("h1")
-    h1WindowSmall.innerHTML = 'Análise de Qualidade de Energia'
-    document.getElementById("#Divh1Img").appendChild(h1WindowSmall)
-    alert()
+    const h1 = document.querySelectorA(".TitleH1")
+    let x = 'sobre nós'.toLocaleUpperCase()
+    h1.innerText = x
+
 }
 setInterval(h1Before,1000) */
