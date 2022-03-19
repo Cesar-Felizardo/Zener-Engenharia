@@ -150,6 +150,16 @@ Main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #A80304;
+
+}
+
+#whatsappImg {
+    width: 40px;
+    position: fixed;
+    top: 550px;
+    left: 8px;
+    float: left;
 }
 
 section {
@@ -217,7 +227,7 @@ article {
     padding: 30px;
     text-align: justify;
     line-height: 32px;
-    text-indent: 40px;
+    /* text-indent: 40px; */
     display: flex;
     align-items: center;
     flex-direction: column;
