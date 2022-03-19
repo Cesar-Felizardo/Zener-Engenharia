@@ -188,7 +188,7 @@ section {
 }
 
 .Contact {
-   width:100% ;
+   width:100%;
    background: #ac0000dc;
    display: flex;
    align-items: center;
@@ -203,7 +203,7 @@ section {
 .address {
     color: rgb(255, 255, 255);
     line-height: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     text-shadow: 1px 1px 1px #000;
     width: 47%;
 }
@@ -256,7 +256,30 @@ footer {
     margin-bottom: 6px;
 }
 
+.parFooter {
+    font-size: 13px;
+}
+
+.h1ContactUs {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.h1BeforeImg1 {
+    display: none;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
 @media (max-width: 1000px) {
+
+    .h1BeforeImg1 {
+        display: block;
+    }
+
+     h1, h2{
+            display: none;
+        }
 
     .header {
         background-image: url("../IMG/LampadasBack1000px.jpg");
@@ -329,14 +352,26 @@ footer {
         width: 350px;
     }
 
+    .Contact {
+        width:100%;
+        background: #ac0000dc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #020101a6;
+        flex-direction: column;
+        height: 500px;
+     } 
+
     @media (max-width: 500px) {
+
         .header {
             background-image: url("../IMG/LampadasBackMid.png");
             background-repeat: no-repeat;
             background-size: cover;
         }
         nav {
-            width: 80%;
+            width: 97.4%;
         }
 
         li a {
@@ -344,8 +379,13 @@ footer {
             right: 30px;
         }
 
+       /*  .imgLogoMobile {
+            width: 150px ;
+        } */
+
         .txtInit {
             text-align: center;
+            height: 80px;
         }
         
     }
