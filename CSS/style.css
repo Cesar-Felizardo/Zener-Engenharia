@@ -250,7 +250,7 @@ p {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 40px;
     width: 100%;
     text-align: center;
@@ -309,6 +309,11 @@ footer {
 
     .h1BeforeImg1 {
         display: block;
+    }
+
+    .h1BeforeImgFatorPotencial {
+        display: block;
+        margin-bottom: -30px;
     }
 
      h1, h2{
