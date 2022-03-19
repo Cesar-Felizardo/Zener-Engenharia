@@ -277,15 +277,9 @@ footer {
 
 @media (max-width: 1000px) {
 
-    /* .containerH1BeforeImg {
-        display: flex;
-        align-items: center;
-        justify-content: baseline;
-    } */
-
     .h1BeforeImg1 {
         display: block;
-        padding: 5px;
+        /* padding: 5px; */
     }
 
      h1, h2{
@@ -360,7 +354,7 @@ footer {
     }
 
     .imgSun {
-        width: 350px;
+        width: 380px;
     }
 
     .Contact {
