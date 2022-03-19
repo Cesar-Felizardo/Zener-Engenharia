@@ -151,6 +151,7 @@ Main {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #A80304;
+    margin: auto !important;
 
 }
 
