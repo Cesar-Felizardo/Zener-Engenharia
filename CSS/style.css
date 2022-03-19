@@ -158,9 +158,10 @@ Main {
 #whatsappImg {
     width: 40px;
     position: fixed;
-    top: 550px;
+    top: 500px;
     left: 8px;
     float: left;
+    z-index: 1;
 }
 
 section {
@@ -188,8 +189,12 @@ section {
 } */
 
 .imgVetor {
-    width: 440px;
+    width: 400px;
     margin: auto;
+}
+
+.imgAnálisedeQualidade {
+    width: 300px !important;
 }
 
 .imgSun{
@@ -374,11 +379,11 @@ footer {
     }
 
     .imgVetor {
-        width: 400px;
+        width: 400px !important;
     }
 
     .imgSun {
-        width: 380px;
+        width: 400px !important;
     }
 
     .Contact {
