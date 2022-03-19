@@ -277,8 +277,15 @@ footer {
 
 @media (max-width: 1000px) {
 
+    /* .containerH1BeforeImg {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+    } */
+
     .h1BeforeImg1 {
         display: block;
+        padding: 5px;
     }
 
      h1, h2{
@@ -370,9 +377,8 @@ footer {
      .address {
         color: rgb(237, 227, 227);
         padding-bottom: 50px !important;
-        display: block;
-        text-align: justify !important;
-        
+        width: auto;
+        margin: auto;
     }
 
     @media (max-width: 500px) {
@@ -390,10 +396,6 @@ footer {
             position: relative;
             right: 30px;
         }
-
-       /*  .imgLogoMobile {
-            width: 150px ;
-        } */
 
         .txtInit {
             text-align: center;
