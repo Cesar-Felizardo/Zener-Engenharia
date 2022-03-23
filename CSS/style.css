@@ -430,7 +430,7 @@ footer {
     @media (max-width: 500px) {
 
         .header {
-            background-image: url("../IMG/LampadasBackMid.png");
+            background-image: url("../IMG/LampadasBackMobile.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
