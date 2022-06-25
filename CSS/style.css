@@ -148,7 +148,7 @@ Main {
 }
 
 #whatsappImg {
-    width: 60px;
+    width: 55px;
     position: fixed;
     top: 484px;
     left: 8px;
@@ -268,7 +268,6 @@ footer {
     height: 30px;
     background: #374247;
     margin: auto;
-    margin: 1px;
 }
 
 .parFooter {
@@ -280,6 +279,7 @@ footer {
     justify-content: center;
     align-items: flex-end;
     padding-top: 10px;
+    margin-top: 1px;
 }
 
 .footer2 {

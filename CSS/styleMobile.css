@@ -160,21 +160,16 @@
         width: 100%;
         height: 30px;
         background: #374247;
-        margin: auto;
-        margin: 1px;
         font-size: 12px;
     }
     
-    /* .parFooter {
-        font-size: 12px;
-    } */
-    
     .footer1 {
-       
+        margin-top: 1px;
     }
     
     .footer2 {
-        
+        /* margin-bottom: -54px !important; */
+        height: 40px;
     }
 
     @media (max-width: 500px) {
