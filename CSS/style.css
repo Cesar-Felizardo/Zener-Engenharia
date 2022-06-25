@@ -268,8 +268,7 @@ footer {
     height: 30px;
     background: #374247;
     margin: auto;
-    /* border: 1px solid #020101a6; */
-    margin-bottom: 6px;
+    margin: 1px;
 }
 
 .parFooter {
@@ -281,7 +280,6 @@ footer {
     justify-content: center;
     align-items: flex-end;
     padding-top: 10px;
-    margin: 0px;
 }
 
 .footer2 {
@@ -289,7 +287,6 @@ footer {
     justify-content: start;
     align-items: center;
     padding-left: 20px;
-    margin: 0px;
 }
 
 .h1ContactUs {
