@@ -4,6 +4,10 @@
         margin-top: 1px;
     }
 
+    #whatsappImg {
+        width: 50px !important;
+    }
+
     .containerimgLogoMobile {
         display: flex;
         width: 100%;
