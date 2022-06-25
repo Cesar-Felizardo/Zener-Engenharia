@@ -3,6 +3,16 @@
     .header {
         margin-top: 1px;
     }
+
+    .containerimgLogoMobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .imgLogoMobile {
+        width: 160px;
+    }
     
     .containerTitleAndImage {
         display: flex;
@@ -43,11 +53,16 @@
     .containerMenuBtnMobile {
         position: fixed;
         display: flex;
+        flex-direction: row-reverse;
         top: 0px;
         width: 100%;
         padding: 12px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.881);
         background: #374247;
+    }
+
+    #btn-mobile {
+        margin-right: 20px;
     }
 
     span.subTitleSolution {

@@ -39,16 +39,6 @@ html {
     width: 60px;
 }
 
-.containerimgLogoMobile {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.imgLogoMobile {
-    width: 140px;
-}
-
 #containerLogo {
     width: auto;
     display: flex;

@@ -37,7 +37,7 @@
         </div>
         <div class="header">
             <div class="containerMenuBtnMobile">
-                <img src="IMG/btnMenu4.png" alt="">
+                <img id="btn-mobile" src="IMG/btnMenu4.png" alt="">
                 <div class="containerimgLogoMobile"><img class="imgLogoMobile" src="IMG/LogoTransparentEdt.png" alt=""></div>
             </div>
         </div>
@@ -171,7 +171,7 @@
     crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
-            let x = $('.containerMenuBtnMobile').click(function() {
+            let x = $('#btn-mobile').click(function() {
             const nav = $('nav').fadeToggle()
             })
         })
