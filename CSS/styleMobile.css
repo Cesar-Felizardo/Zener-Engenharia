@@ -1,0 +1,158 @@
+@media (max-width: 1000px) {
+    
+    .containerTitleAndImage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgVetor {
+        position: relative;
+        left: 10px;
+    }
+
+    #imgCorreçãoFatorPotência {
+        /* width: 380px !important; */
+        margin-right: 20px !important;
+        margin-bottom: -40px !important;
+    }
+
+    .h1BeforeImg1 {
+        display: block;
+    }
+
+    .h1BeforeImgFatorPotencial {
+        display: block;
+        margin-bottom: -30px;
+    }
+
+     h1, h2{
+            display: none;
+        }
+
+    .header {
+        background-image: url("../IMG/LampadasBack1000px.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .containerMenuBtnMobile {
+        position: fixed;
+        display: flex;
+        top: 0px;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.881);
+    }
+
+    span.subTitleSolution {
+        padding-left: 12px;
+        margin-bottom: 12px;
+    }
+
+    .txtInit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        background: #bec8cb2e;
+        position: relative;
+        top:  480px;
+        font-size: 100%;
+    }
+
+    .containerMenu {
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+        margin-top: 60px;
+        position: fixed;
+        width: 98.5%;
+        top: 20px;
+        background: #374247da;
+        text-shadow: 1px #000;
+    }
+
+    ul { 
+        flex-direction: column;
+    }
+    
+    li a {
+        line-height: 34px;
+    }
+
+    .pipe {
+        display: none;
+    }
+
+    article {
+        width: 90%;
+    }
+
+    #contactcUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgVetor {
+        width: 400px !important;
+    }
+
+    .imgSun {
+        width: 400px !important;
+    }
+
+    .Contact {
+        width:100%;
+        background: #ac0000dc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #020101a6;
+        flex-direction: column;
+        height: 500px;
+     } 
+
+     .address {
+        color: rgb(237, 227, 227);
+        padding-bottom: 100px !important;
+        width: auto;
+        margin: auto;
+        font-size: 13px;
+    }
+
+    #h1BeforeImgContact {
+        position: relative;
+        top: 50px;
+    }
+
+    @media (max-width: 500px) {
+
+        .header {
+            background-image: url("../IMG/LampadasBackMobile.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav {
+            width: 97.4%;
+            /* position: fixed; */
+        }
+
+        li a {
+            position: relative;
+            right: 30px;
+        }
+
+        .txtInit {
+            text-align: center;
+            height: 80px;
+        }
+        
+    }
+
+}
