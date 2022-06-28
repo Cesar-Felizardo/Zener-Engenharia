@@ -181,9 +181,22 @@ section {
     flex-direction: row-reverse;
 } */
 
+.containerTitleAndImage {
+   /* border: rgba(0, 0, 0, 0.659) 4px solid;
+   border-radius: 8px; */
+}
+
 .imgVetor {
-    width: 500px;
+    width: 400px;
     margin: auto !important;
+}
+
+.containerTitleAndImageNew {
+    border: rgba(0, 0, 0, 0.744) 4px solid;
+    border-radius: 8px;
+ }
+.imgVetorNew {
+    width: 550px;
 }
 
 .imgAnálisedeQualidade {
@@ -264,7 +277,7 @@ h2 {
 
 .btn-more {
     margin-top: 40px;
-    width: 140px;
+    width: 160px;
     height: 45px;
     border-radius: 6px;
     background: #A80304;
