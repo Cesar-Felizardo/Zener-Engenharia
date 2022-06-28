@@ -262,6 +262,24 @@ h2 {
     margin-bottom: 20px !important;
 }
 
+.btn-more {
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background: #A80304;
+    border:  0.5px solid #000;
+    /* box-shadow: rgba(0, 0, 0, 0.527) 1px 1px 1px; */
+    color: white;
+    cursor: pointer;
+}
+
+.btn-more:hover {
+    background: #5d0101;
+   /*  transform: scale(1.02); */
+   text-decoration: underline;
+}
+
 footer {
     padding: 4px;
     width: 100%;
