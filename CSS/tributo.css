@@ -9,33 +9,64 @@ html {
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
 
-.header {
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 500px;
-    font-family: 'Roboto', sans-serif;
-    background-image: url('../IMG/LampadasBack.jpg');
-    background-size:100%;
-    background-repeat:  no-repeat;
-    margin-bottom: 100px;
-    box-shadow: 0px 2px 6px #020101a6;
-    margin-top: 16px;
-    
+    height: 50vh;
+    background-image: url(../IMG/Bitributo.jpeg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.txtInit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    background: #03030380;
+    color: white;
+    padding-left: 80px;
+    font-size: 30px;
+    filter: blur(50);
+    margin-bottom: -60px;
+    border-top: #5d0101af 1px solid;
+    border-bottom: #5d0101af 1px solid;
 }
 
-.containerMenuBtnMobile {
-    display: none;
-    position: relative;
-    width: 100%;
-    background: #161F24;
-    height: 60px;
-    bottom: 60px;
-    z-index: 1;
-
-   /*  position: fixed;
-    bottom: 564px; */
+.txtInit h2{
+    text-align: left;
+    margin-top: -10px;
+    color: #A80304;
 }
 
-.containerMenuBtnMobile > img {
+article {
+    background: #A80304;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.527) 2px 4px 4px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+article > h2{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+
+article > div {
+    background: white;
+    margin: 10px -30px -30px -30px;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+    line-height: 40px;
+    text-indent: 40px;
+}
+
+.container {
     width: 60px;
 }
 
@@ -124,27 +155,13 @@ nav li a:hover {
     color: #fcfcfca8;
 }
 
-.txtInit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background: #bec8cb2e;
-    position: relative;
-    top:  480px;
-    font-size: larger;
-    color: rgb(221, 218, 218);
-    text-shadow: 1px 1px 1px #000;
-    font-family: 'Roboto', sans-serif;
-}
-
 Main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #A80304;
+    background: #A80304;
     margin: auto !important;
+    
 }
 
 #whatsappImg {
@@ -154,7 +171,6 @@ Main {
     left: 8px;
     float: left;
     z-index: 1;
-    /* box-shadow: 1px 1px 1px #000; */
 }
 
 section {
@@ -163,37 +179,32 @@ section {
     background: white;
     width: 100%;
     height: auto;
-    padding-top: 100px;
+    padding: 50px 0px;
     align-items: center;
     flex-wrap: wrap;
+    background-image: url(../IMG/Bitributo.jpeg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border:  1px solid #000; */
 }
 
-/* .Inverse {
-    display: flex;
-    justify-content: space-around;
-    background: white;
-    width: 96%;
-    height: auto;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-} */
 
 .containerTitleAndImage {
-   /* border: rgba(0, 0, 0, 0.659) 4px solid;
-   border-radius: 8px; */
+    display: none;
 }
 
 .imgVetor {
+    display: none;
     width: 400px;
     margin: auto !important;
 }
 
 .containerTitleAndImageNew {
-    border: rgba(0, 0, 0, 0.744) 4px solid;
+    border: rgba(0, 0, 0, 0.804) 4px solid;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.291) 1px 1px 1px 1px;
  }
 .imgVetorNew {
     width: 550px;
@@ -231,7 +242,6 @@ section {
 .address {
     color: rgb(255, 255, 255);
     line-height: 30px;
-    /* padding-bottom: 30px; */
     text-shadow: 1px 1px 1px #000;
     width: 47%;
      display: flex;
@@ -244,7 +254,6 @@ article {
     padding: 30px;
     text-align: justify;
     line-height: 32px;
-    /* text-indent: 40px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -265,7 +274,6 @@ h1 {
     margin-bottom: 40px;
     width: 100%;
     text-align: center;
-    /* text-transform: uppercase; */
 }
 
 h2 {
@@ -294,7 +302,7 @@ h2 {
 footer {
     padding: 4px;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background: #374247;
     margin: auto;
 }
@@ -306,7 +314,7 @@ footer {
 .footer1 {
     display:  flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding-top: 10px;
     margin-top: 1px;
 }
