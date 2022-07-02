@@ -12,13 +12,13 @@
         width: 45px;
         position: fixed;
         top: 484px;
-        left: 51px;
+        left: 10px;
         float: left;
         z-index: 1;
-        /* box-shadow: 1px 1px 1px #000; */
     }
     
     .container-text-whats {
+        display: none;
         color: #000;
         font: 80px;
         position: fixed;
@@ -33,6 +33,7 @@
     }
     
     .container-text-whats p {
+        display: none;
         color: rgba(255, 255, 255, 0.775);
         font-size: 12px;
     }
@@ -131,7 +132,7 @@
         height: 180px;
         background: #03030380;
         color: white;
-        padding-left: 40px;
+        padding-right: 50px;
         font-size: 18px;
         filter: blur(50);
     }
@@ -248,7 +249,7 @@
             height: 180px;
             background: #03030380;
             color: white;
-            /* padding-left: 40px; */
+            /* padding-right: 80px; */
             font-size: 16px;
             filter: blur(50);
         }
@@ -280,6 +281,23 @@
 
         #h1BeforeImgContact {
             color: rgb(237, 227, 227);
+        }
+
+        @media (max-width: 410px) {
+            .txtInit {
+                /* display: flex;
+                justify-content: flex-start;
+                align-items: center; */
+                margin: auto;
+                text-align: center;
+                max-width: 89%;
+                height: 180px;
+                background: #03030380;
+                color: white;
+                padding-right: 50px;
+                font-size: 16px;
+                filter: blur(50);
+            }
         }
     }
 
