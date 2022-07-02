@@ -151,6 +151,20 @@
         width: 400px !important;
     }
 
+    .more-icms, .more-quality {
+        width: 90%;
+        line-height: 28px;
+        margin-bottom: -60px;
+        margin-top: -20px;
+        border-left: rgb(117, 3, 3) 10px solid;
+        border-radius: 8px;
+        padding: 5px 34px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        box-shadow: rgba(0, 0, 0, 0.335) 4px 0px 2px;
+    }
+
     .Contact {
         width:100%;
         background: #ac0000dc;
