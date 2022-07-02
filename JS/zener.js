@@ -27,8 +27,9 @@ function start_animate() {
     },2000)
 } */
 
-window.addEventListener('load', welcome)
-function welcome() {
+/* window.addEventListener('load', welcome) */
+
+setTimeout(function welcome() {
     var data = new Date();
     var hora = data.getHours()
     if(hora < 12) {
@@ -40,19 +41,7 @@ function welcome() {
     } else if (hora <= 5) {
         alert('Ola, Boa madrugada! Seja bem vindo ao nosso site!')
     } 
-}
-window.addEventListener('load', start_OnOff)
-const phone_more = document.querySelector('phonesMore')
-
-function lightOn() {
-    
-}
-
-function start_OnOff() {
-    setInterval(function() {
-        lightOn()
-    },2000)
-}
+},2000)
 // Obtém a data/hora atual
 /* var data = new Date(); */
 
@@ -67,3 +56,16 @@ function start_OnOff() {
 /* var seg     = data.getSeconds(); */        // 0-59
 /* var mseg    = data.getMilliseconds(); */   // 0-999
 /* var tz      = data.getTimezoneOffset(); */ // em minutos
+
+/* window.addEventListener('load', start_OnOff)
+const phone_more = document.querySelector('phonesMore')
+
+function lightOn() {
+    
+}
+
+function start_OnOff() {
+    setInterval(function() {
+        lightOn()
+    },2000)
+} */
