@@ -68,7 +68,6 @@
     }
 
     #imgCorreçãoFatorPotência {
-        /* width: 380px !important; */
         margin-right: 20px !important;
         margin-bottom: -40px !important;
     }
@@ -123,15 +122,17 @@
     }
 
     .txtInit {
-        display: flex;
+        /* display: flex;
         justify-content: flex-start;
-        align-items: center;
-        width: 94%;
+        align-items: center; */
+        margin: auto;
+        text-align: center;
+        max-width: 96%;
         height: 180px;
         background: #03030380;
         color: white;
         padding-left: 40px;
-        font-size: 20px;
+        font-size: 18px;
         filter: blur(50);
     }
 
@@ -196,12 +197,13 @@
 
     .Contact {
         width:100%;
-        background: #ac0000dc;
+        background: #A80304;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         height:auto;
+        text-shadow: 1px 1px 1px #000;
      } 
 
      .address {
@@ -215,6 +217,7 @@
     #h1BeforeImgContact {
         position: relative;
         top: 50px;
+        color: rgb(237, 227, 227);
     }
     footer {
         padding: 4px;
@@ -234,7 +237,24 @@
         align-items: flex-end;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 915px) {
+        .txtInit {
+            /* display: flex;
+            justify-content: flex-start;
+            align-items: center; */
+            margin: auto;
+            text-align: center;
+            max-width: 94%;
+            height: 180px;
+            background: #03030380;
+            color: white;
+            /* padding-left: 40px; */
+            font-size: 16px;
+            filter: blur(50);
+        }
+    }
+
+    @media (max-width: 630px) {
 
         .header {
             background-image: url("../IMG/LampadasBackMobile.jpg");
@@ -254,8 +274,13 @@
         .txtInit {
             text-align: center;
             height: 80px;
+            width: 91%;
+            font-size: 16px;
         }
-        
+
+        #h1BeforeImgContact {
+            color: rgb(237, 227, 227);
+        }
     }
 
 }
